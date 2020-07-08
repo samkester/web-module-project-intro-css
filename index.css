@@ -32,36 +32,36 @@ main font: Roboto Mono (https://fonts.google.com/specimen/Roboto+Mono)
     max-width: 100%;
     box-sizing: border-box;
     font-family: "Roboto Mono";
-    border: 1px pink solid;
+    /*border: 1px pink solid;*/
 }
 
 html{
     font-size: 62.5%;
-    line-height: 1;
+    line-height: 1.15;
 }
 
 body{
-    font-size: 1.2rem;
-    /*letter-spacing: 1px;*/
+    font-size: 1.6rem;
 }
 
-/*nav {
+nav {
     width: 90%;
-    padding: 2rem 0%;
+    /*max-width: 750px;*/
+    padding: 3% 4%;
+    margin: auto;
 }
 
 nav a{
     display: inline-block;
-    width: 15%;
-    max-width: 90px;
-    margin: 0% 5%;
-    height: 3em;
-    border-radius: 1em;
-    padding: .3em;
+    width: 17.5%;
+    margin: 0% 7%;
+    border-radius: 20px;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     color: white;
-}*/
+    font-size: 2.4rem;
+}
 
 .link-a{
     background-color: #FF764E; 
@@ -77,60 +77,61 @@ nav a{
 
 header{
     width: 90%;
-    padding: 5%;
+    /*padding: 5%;*/
     margin: auto;
 }
 
 header img{
     width: 25%;
     border-radius: 50%;
+    margin: 3%;
 }
 
 header .wrapper
 {
-    text-align: center;
     display: inline-block;
-    width: 60%;
-    margin: 0% 5%;
+    width: 65%;
 }
 
 h1{
-    /*display: inline-block;*/
-    font-size: 3.6rem;
-    margin: auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 6.4rem;
     font-family: "Chelsea Market";
+    margin: 5%;
 }
 
 h2{
-    /*display: inline-block;*/
-    margin: 5% auto;
-    font-size: 1.2rem;
-    /*width: 80%;*/
+    display: inline-block;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-left: 10%;
 }
 
 h3{
-    /*display: inline-block;*/
-    padding: 0%;
-    margin: auto;
-    font-size: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.4rem;
     width: 70%;
+    margin: 5% 15%;
 }
 
 .fullwidth-shaded{
     width: 90%;
     margin: auto;
-    padding: 0% 2%;
+    padding: 0.5% 2%;
     text-align: center;
     color: white;
     background-color: #DDB9A3;
+    font-size: 2.4rem;
 }
 
 .article-box{
     width: 25%;
     margin: auto;
     text-align: center;
-    margin-bottom: 5%;
-    /*padding: 5%;*/
+    margin-bottom: 3%;
+    padding: 1%;
 }
 
 .article-box img{
