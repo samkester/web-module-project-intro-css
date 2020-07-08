@@ -1,3 +1,156 @@
+/* style notes: 
+
+
+header image: circular, ~20-30%
+
+round corners on links
+
+
+
+
+H1 font: Chelsea Market ()
+main font: Roboto Mono (https://fonts.google.com/specimen/Roboto+Mono)
+
+
+- [ ] Color the background of the footer with `#F9E7DC`
+- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+*/
+
+/*@font-face {
+    font-family: Chelsea-Market;
+    src: url(https://fonts.google.com/specimen/Chelsea+Market);
+}
+
+@font-face {
+    font-family: Roboto-Mono;
+    src: url(https://fonts.google.com/specimen/Roboto+Mono);
+}*/
+
 * {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto Mono";
     border: 1px pink solid;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1;
+}
+
+body{
+    font-size: 1.2rem;
+    /*letter-spacing: 1px;*/
+}
+
+/*nav {
+    width: 90%;
+    padding: 2rem 0%;
+}
+
+nav a{
+    display: inline-block;
+    width: 15%;
+    max-width: 90px;
+    margin: 0% 5%;
+    height: 3em;
+    border-radius: 1em;
+    padding: .3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}*/
+
+.link-a{
+    background-color: #FF764E; 
+}
+
+.link-b{
+    background-color: #5ED3EB;
+}
+
+.link-c{
+    background-color: #FFCD69;
+}
+
+header{
+    width: 90%;
+    padding: 5%;
+    margin: auto;
+}
+
+header img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+header .wrapper
+{
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    margin: 0% 5%;
+}
+
+h1{
+    /*display: inline-block;*/
+    font-size: 3.6rem;
+    margin: auto;
+    font-family: "Chelsea Market";
+}
+
+h2{
+    /*display: inline-block;*/
+    margin: 5% auto;
+    font-size: 1.2rem;
+    /*width: 80%;*/
+}
+
+h3{
+    /*display: inline-block;*/
+    padding: 0%;
+    margin: auto;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+.fullwidth-shaded{
+    width: 90%;
+    margin: auto;
+    padding: 0% 2%;
+    text-align: center;
+    color: white;
+    background-color: #DDB9A3;
+}
+
+.article-box{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    /*padding: 5%;*/
+}
+
+.article-box img{
+    width: 50%;
+}
+
+p{
+    margin: 1% 0%;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+.footer-img{
+    height: 20vw;
+    width: 100%;
+    background: url("assets/footer_img.jpg");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -5vw;
 }
